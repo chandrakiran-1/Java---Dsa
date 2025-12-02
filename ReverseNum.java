@@ -1,9 +1,11 @@
-
+import java.util.*;
 class ReverseNumber
 {
     public static void main(String[]args)
     {
-        int number=12345;
+        Scanner chandu= new Scanner(System.in);
+        System.out.println("Enter a number to Reverse :");
+        int number = chandu.nextInt();
         int rev=0;
         while(number != 0)
         {
